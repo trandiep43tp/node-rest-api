@@ -1,0 +1,16 @@
+pass PgAdmin: thucpham
+npm install --save @nestjs/typeorm typeorm pg
+
+Pipes: là để lọc dữ liệu trước khi controler gọi đến service. Vd như kiểm tra dữ liệu nhập có rỗng không
+    Cách sử dụng validator trong Pipes
+        npm i --save class-validator class-transformer
+
+API
+    TASK
+        GET    /tasks
+        GET    /tasks?status= &search=
+        GET    /tasks/:id
+        POST   /tasks
+        DELETE /tasks/:id
+        PATCH  /tasks/:id/status     change status
+
